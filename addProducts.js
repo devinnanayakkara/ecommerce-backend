@@ -22,9 +22,9 @@ mongoose.connect(process.env.MONGO_URI)
            {
                 name: 'Khaki Chinos',
                 image: '/images/khaki-chinos.jpg',
-                price: 45.00,
-                description: 'Versatile khaki chinos for smart-casual occasions.'
-    },
+                price: 39.99,
+                description: 'Comfortable khaki chinos for casual wear.'
+          },
              {
                 name: 'Green Hat',
                 image: '/images/green-hat.jpg',
