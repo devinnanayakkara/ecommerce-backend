@@ -19,12 +19,12 @@ mongoose.connect(process.env.MONGO_URI)
                 price: 19.99,
                 description: 'Stylish red shirt made from cotton.'
             },
-            {
-                name: 'Blue Jeans',
-                image: '/images/Bluejeans.jpg',
-                price: 29.88,
-                description: 'Comfortable blue jeans with a modern fit.'
-            },
+           {
+                name: 'Khaki Chinos',
+                image: '/images/khaki-chinos.jpg',
+                price: 45.00,
+                description: 'Versatile khaki chinos for smart-casual occasions.'
+    },
              {
                 name: 'Green Hat',
                 image: '/images/green-hat.jpg',
