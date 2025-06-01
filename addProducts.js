@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();  // Load MONGODB_URI from .env file
 
-mongoose.connect(process.env.MONGODB_URI) 
+mongoose.connect(process.env.MONGO_URI) 
     .then(async () => {
         console.log('Connected to MongoDB');
 
