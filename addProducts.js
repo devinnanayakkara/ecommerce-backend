@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGO_URI)
             },
             {
                 name: 'Blue Jeans',
-                images: '/images/blue-jeans.jpg',
+                image: '/images/Bluejeans.jpg',
                 price: 29.88,
                 description: 'Comfortable blue jeans with a modern fit.'
             },
